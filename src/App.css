@@ -1,0 +1,246 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-menu {
+    background-color: #252525;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.nav-item {
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.nav-item:hover{
+    text-shadow: 0px 0px 15px #C2DC49;
+}
+.video{
+
+height: 100vh;
+width: 100%;
+overflow: hidden;
+
+} 
+
+.character {
+    height: 100vh;
+    width: 100%;
+    background: url('img/images/section2-bg.png') center/cover no-repeat;
+    display: flex;
+}
+.character-img {
+    text-align: center;
+    position: relative;
+}
+.character-img img{
+    height: 100%;
+}
+.character-img figcaption{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-style: italic;
+}
+.character-info {
+    width: 40%;
+    padding: 20px;
+}
+.character-header {
+    margin-top: 100px;
+    font-size: 40px;
+}
+.character-header h2{
+    margin-bottom: 40px;
+}
+.character-header h3{
+    font-weight: 500;
+    color: #636363;
+    font-size: 30px;
+}
+.character-desc {
+    margin: 40px 0;
+}
+.character-desc mark{
+    background: #C2DC49;
+}
+.chracter-desc-extended {
+    margin: 40px 0;
+    font-size:12px;
+}
+.chracter-desc-extended summary{
+    color: #3C6628;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.character-additional {
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.additional-content {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+.additional-item {
+    margin: 30px 0;
+}
+.additional-item span{
+    font-weight: bold;
+}
+.abilities {
+    height: 60vh;
+    width: 100%;
+    background: url('img/images/section3-bg.png') center/cover no-repeat;
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+}
+.abilities-card {
+    background: #252525;
+    width: 25%;
+    border-radius: 20px;
+    text-align: center;
+    padding:0 20px;
+}
+.abilities-img {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+.abilities-title {
+    color: #C2DC49;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.abilities-sub-title {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.abilities-text {
+    color: gray;
+}
+.special {
+    background: #E5E1D8;
+    padding: 100px 80px;
+}
+.special-header {
+    text-align: center;
+    font-size: 40px;
+}
+.special-header h2{
+    margin-bottom: 40px;
+}
+.special-header h3{
+    font-weight: 500;
+    color: #636363;
+    font-size: 30px;
+}
+.special-img  img{
+    display: block;
+    margin: 0 auto;
+}
+.special-img  figcaption{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.special-description {
+    margin-bottom: 30px;
+}
+.special-content {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.special-content li{
+    padding: 0;
+    text-align: left;
+    margin-right: auto;
+}
+.special-footer {
+    border-top: 1px solid #C4C4C4;
+    padding: 50px 0;
+    line-height: 50px;
+}
+.special-footer span{
+    color:gray
+}
+
+
+
+.site-footer {
+    padding: 150px 80px;
+    background: #252525;
+}
+.footer-title {
+    color: gray;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-icon {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 150px;
+}
+   
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
