@@ -4,7 +4,7 @@ function Footer(){
 
 return(
             <footer className="site-footer">
-       				 <h2 className = "footer-title">демонстрационный сайт, не для коммерческого использования.</h2>
+       				 <h2 className = "footer-title">демонстрационный сайт, Venom не для коммерческого использования.</h2>
        				 <img src={ficon} alt="Apex legend and respawn icons" className="footer-icon"/>
    			 </footer>
 )
